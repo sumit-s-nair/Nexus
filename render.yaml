@@ -2,7 +2,7 @@ services:
   - type: web
     name: nexus-website
     env: static
-    buildCommand: npm install && npm run build
+    buildCommand: NODE_OPTIONS="--max-old-space-size=1024" npm run build
     staticPublishPath: dist
     envVars:
       - key: NODE_VERSION
