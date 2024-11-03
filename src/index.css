@@ -79,24 +79,6 @@ body {
   transform-origin: center top;
 }
 
-.spinner {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  margin-right: -42px;
-  margin-top: -42px;
-  animation: fadeIn 2.4s ease-in-out 1.2s forwards;
-  opacity: 0;
-}
-
-.spinner__image {
-  width: 164px;
-  height: 164px;
-  background-size: contain;
-  background-image: url("/images/wawa.svg");
-  animation: rotate 10s linear infinite;
-}
-
 .intro--disappear .spinner {
   opacity: 1;
   animation: fadeOut 1s ease-in-out forwards;
