@@ -10,7 +10,6 @@ Welcome to **Nexus**, a 3D interactive web experience designed for the **Nexus C
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -47,7 +46,7 @@ To set up and run this project locally, please follow these steps:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/nexus
+git clone https://github.com/sumit-s-nair/nexus
 cd nexus
 ```
 
@@ -62,10 +61,24 @@ npm install
 ```bash
 npm run dev
 ```
-Available at http://localhost:3000/ by default or url will be specified in the terminal 
+The development server will be available at http://localhost:5173 by default (or a different URL as specified in your terminal output).
 
 ### Build for Production 
 ```bash
 npm run build
 ```
 The command will create an optimised build in the dist folder 
+
+## Project Structure
+
+    src/components/: Contains individual components for the rocket, asteroids, background, and text sections.
+    src/utils/: Includes utility files like custom shaders and materials.
+    src/contexts/: Context management for controlling interactive elements.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or find issues, feel free to open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
