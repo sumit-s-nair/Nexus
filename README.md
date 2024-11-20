@@ -2,7 +2,7 @@
 
 Welcome to **Nexus**, a 3D interactive web experience designed for the **Nexus Club**. This project combines 3D elements, animations, and smooth scroll effects to create an immersive and engaging user experience with a space-themed design, powered by **React Three Fiber** and **Three.js**.
 
-🌐 [View the live site here!](https://nexus-pes-alpha.vercel.app/)
+🌐 [View the live site here!](https://nexus-pesu.vercel.app/)
 
 ## Table of Contents
 
